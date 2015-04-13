@@ -1,4 +1,4 @@
-FROM debian/wheezy
+FROM debian:wheezy
 
 # Add MySQL volume
 VOLUME ["/var/lib/mysql"]
